@@ -3,7 +3,7 @@ package com.lap.sourceit.lesson1.homework1;
 /**
  * Created by Lenovo on 26.02.2017.
  */
-public class Training {
+public class Training1 {
     public static void main(String[] args) {
 
         /*Базовый синтаксис*/

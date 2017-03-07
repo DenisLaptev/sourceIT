@@ -1,4 +1,4 @@
-package com.lap.sourceit.lesson1;
+package com.lap.sourceit.lesson1.classwork1;
 
 public class JavaIExampleI {
 

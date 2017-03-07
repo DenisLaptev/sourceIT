@@ -1,9 +1,9 @@
-package com.lap.sourceit.lesson1;
+package com.lap.sourceit.lesson1.homework1;
 
 /**
  * Created by Lenovo on 26.02.2017.
  */
-public class Task1 {
+public class HomeTask1 {
     public static void main(String[] args) {
 
         System.out.println("~~~~~~~~~~~~~~1~~~~~~~~~~~~~~");
@@ -76,5 +76,26 @@ public class Task1 {
         System.out.println("5000 UAH = " + amount / UAHTOEUR + " EUR.");
         System.out.println("5000 UAH = " + amount / UAHTORUB + " RUB.");
 
+
+        System.out.println("~~~~~~~~~~~~~~5~~~~~~~~~~~~~~");
+        System.out.println("Age of people");
+        int ageOfIvanov = 20;
+        int ageOfPetrov = 30;
+        int ageOfSidorov = 40;
+        int ageOfPupkin = 100;
+
+        int ageOfPavarotti = 72;
+        if (ageOfIvanov > ageOfPavarotti) {
+            System.out.println("Ivanov (" + ageOfIvanov + " years) " + "is older then Pavarotti");
+        }
+        if (ageOfPetrov > ageOfPavarotti) {
+            System.out.println("Petrov (" + ageOfPetrov + " years) " + "is older then Pavarotti");
+        }
+        if (ageOfSidorov > ageOfPavarotti) {
+            System.out.println("Sidorov (" + ageOfSidorov + " years) " + "is older then Pavarotti");
+        }
+        if (ageOfPupkin > ageOfPavarotti) {
+            System.out.println("Pupkin (" + ageOfPupkin + " years) " + "is older then Pavarotti");
+        }
     }
 }

@@ -1,4 +1,4 @@
-package com.lap.sourceit.lesson1;
+package com.lap.sourceit.lesson1.homework1;
 
 /**
  * Created by Lenovo on 26.02.2017.

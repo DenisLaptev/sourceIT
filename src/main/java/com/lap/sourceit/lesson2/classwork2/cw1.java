@@ -1,9 +1,9 @@
-package com.lap.sourceit.lesson2;
+package com.lap.sourceit.lesson2.classwork2;
 
 /**
  * Created by Lenovo on 04.03.2017.
  */
-public class Classwork {
+public class cw1 {
 
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Classwork {
         for (int i = 0; i < myWords.length; i++) {
             if (myWords[i].endsWith(",") | myWords[i].endsWith(".")) {
                 myWords[i] = myWords[i].substring(0, myWords[i].length() - 1);
-                System.out.println(myWords[i]);
+                //System.out.println(myWords[i]);
             }
         }
 
@@ -31,6 +31,5 @@ public class Classwork {
             }
             System.out.println(myWords[i] + "(" + myWords[i].length() + lett + ")");
         }
-
     }
 }

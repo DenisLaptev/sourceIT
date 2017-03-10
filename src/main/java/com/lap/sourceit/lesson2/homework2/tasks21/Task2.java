@@ -40,6 +40,7 @@ public class Task2 {
             System.out.println("Equation has no real solurions.");
         }
 
+
     }
 
 

@@ -3,8 +3,8 @@ package com.lap.sourceit.lesson2.homework2.tasks21;
 import java.util.Arrays;
 import java.util.Comparator;
 
-import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods.enterNStrings;
-import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods.printArray;
+import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods21.enterNStrings;
+import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods21.printArray;
 
 /**
  * Created by Lenovo on 10.03.2017.

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Lenovo on 07.03.2017.
  */
-public class UtilsMethods {
+public class UtilsMethods21 {
     //public void myMethod(int...numbers) {  }
     public static int[] enter3Numbers() {
         //init scanner and array of int numbers.

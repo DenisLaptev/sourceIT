@@ -1,8 +1,6 @@
 package com.lap.sourceit.lesson2.homework2.tasks21;
 
-import java.util.Scanner;
-
-import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods.enterNStrings;
+import static com.lap.sourceit.lesson2.homework2.tasks21.UtilsMethods21.enterNStrings;
 
 /**
  * Created by Lenovo on 07.03.2017.

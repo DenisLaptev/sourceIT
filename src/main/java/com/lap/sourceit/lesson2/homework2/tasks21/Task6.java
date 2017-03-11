@@ -37,6 +37,13 @@ public class Task6 {
 
         String[] wordsArray;
         wordsArray = text.split("\\s");
+
+        //убираем запятые и другие разделители.
+        for (int i = 0; i < wordsArray.length; i++) {
+            if (endOfTheWord.contains(wordsArray[i].substring(wordsArray[i].length() - 1, wordsArray[i].length()))) {
+                wordsArray[i] = wordsArray[i].substring(0, wordsArray[i].length() - 1);
+            }
+        }
         System.out.println("words array: ");
         for (int i = 0; i < wordsArray.length; i++) {
             System.out.println(wordsArray[i]);
